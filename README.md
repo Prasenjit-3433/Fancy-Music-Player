@@ -4,6 +4,10 @@ A modern looking music player -- Built with HTML 5 Audio API
 Tech Stack: HTML, CSS, Vanilla JS (No Framework!), [HTML5 Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
 
 * Attention: The music files are not hosted online -- So no music!....SORRY!.
+             But works properly in local machine. To see, please clone....
+
+SCREENSHOTS: 
+![](Demo-play.mp4)
 
 *** IMPLEMENTATION ***
  * Here we used html5 [audio](https://www.w3schools.com/tags/ref_av_dom.asp) element without `controls` attributes, so that we can control things with javascript.
