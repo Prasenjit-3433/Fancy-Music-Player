@@ -1,7 +1,9 @@
-# Fancy-Music-Player
+# Fancy-Music-Player [[Link]](https://frabjous-kelpie-a8730d.netlify.app/)
 A modern looking music player -- Built with HTML 5 Audio API
 
 Tech Stack: HTML, CSS, Vanilla JS (No Framework!), [HTML5 Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
+
+* Attention: The music files are not hosted online -- So no music!....SORRY!.
 
 *** IMPLEMENTATION ***
  * Here we used html5 [audio](https://www.w3schools.com/tags/ref_av_dom.asp) element without `controls` attributes, so that we can control things with javascript.
