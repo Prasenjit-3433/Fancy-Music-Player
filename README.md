@@ -7,7 +7,8 @@ Tech Stack: HTML, CSS, Vanilla JS (No Framework!), [HTML5 Audio API](https://dev
              But works properly in local machine. To see, please clone....
 
 SCREENSHOTS: 
-![](Demo-play.mp4)
+https://user-images.githubusercontent.com/84492460/186226372-503130c1-ef3c-44c0-94d8-b83157806472.mp4
+
 
 *** IMPLEMENTATION ***
  * Here we used html5 [audio](https://www.w3schools.com/tags/ref_av_dom.asp) element without `controls` attributes, so that we can control things with javascript.
