@@ -7,7 +7,7 @@ Tech Stack: HTML, CSS, Vanilla JS (No Framework!), [HTML5 Audio API](https://dev
              But works properly in local machine. To see, please clone....
 
 SCREENSHOTS: 
-![](demo.gif)(https://www.youtube.com/watch?v=6LSp9cZDm6U&ab_channel=prasenjitsutradhar)
+![](demo.gif)
 
 SEE On Youtube: https://www.youtube.com/watch?v=6LSp9cZDm6U&ab_channel=prasenjitsutradhar
 
