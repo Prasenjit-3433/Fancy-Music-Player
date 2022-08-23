@@ -117,13 +117,23 @@ function updateProgressBar(event){
         if (currentSeconds < 10) {
             currentSeconds = `0${currentSeconds}`;
         }
-        console.log('minutes: ', currentMinutes);
-        console.log('seconds: ', currentSeconds);
         currentTimeElement.textContent = `${currentMinutes}:${currentSeconds}`;
     }
+}
+
+// Set progress bar by click
+function setProgressBarByClick(event) {
+    // Total width of the progress-container rendered in the page:
+    // In an event, `this` refers to the element that received the event.
+    const width = this.clientWidth;
+    const clickX = event.offsetX;
+    const { duration } = music;
+    // As a result of changing `currentTime`, the `timeupdate` event get fired & current-time, progressBar etc get updated
+    music.currentTime = (clickX / width) * duration;
 }
 
 // Event Listener
 prevBtn.addEventListener('click', prevSong);
 nextBtn.addEventListener('click', nextSong);
 music.addEventListener('timeupdate', updateProgressBar);
+progressContainer.addEventListener('click', setProgressBarByClick);
