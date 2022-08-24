@@ -1,10 +1,7 @@
-# Fancy-Music-Player [[Link]](https://frabjous-kelpie-a8730d.netlify.app/)
+# Fancy-Music-Player [[Link]](https://fancy-music-player.000webhostapp.com/)
 A modern looking music player -- Built with HTML 5 Audio API
 
 Tech Stack: HTML, CSS, Vanilla JS (No Framework!), [HTML5 Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
-
-* Attention: The music files are not hosted online -- So no music!....SORRY!.
-             But works properly in local machine. To see, please clone....
 
 SCREENSHOTS: 
 ![](demo.gif)
